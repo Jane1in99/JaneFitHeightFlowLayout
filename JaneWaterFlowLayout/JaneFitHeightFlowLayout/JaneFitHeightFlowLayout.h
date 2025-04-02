@@ -22,14 +22,12 @@
 - (CGFloat)rowMariginIn:(JaneFitHeightFlowLayout *)flowLayout;
 - (UIEdgeInsets)edgeInsetsIn:(JaneFitHeightFlowLayout *)flowLayout;
 
-//- (NSInteger)columnCountIn:(JaneFitHeightFlowLayout *)flowLayout at:(NSInteger)section;
+
 - (CGFloat)flowLayout:(JaneFitHeightFlowLayout *)layout columnCountAt:(NSInteger)section;
 
 - (CGFloat)flowLayout:(JaneFitHeightFlowLayout *)layout headerHeightAt:(NSInteger)section;
 - (CGFloat)flowLayout:(JaneFitHeightFlowLayout *)layout footerHeightAt:(NSInteger)section;
 
-//- (CGFloat)headerHeightIn:(JaneFitHeightFlowLayout *)flowLayout at:(NSInteger)section;
-//- (CGFloat)footerHeightIn:(JaneFitHeightFlowLayout *)flowLayout at:(NSInteger)section;
 
 @end
 
