@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/Jane1in99/JaneFitHeightFlowLayout.git", :tag => "#{s.version}" }
 
-  s.source_files  = "JaneWaterFlowLayout/JaneWaterFlowLayout/JaneFitHeightFlowLayout/*.{h,m}"
+  s.source_files  = "JaneWaterFlowLayout/JaneFitHeightFlowLayout/*.{h,m}"
 
   s.requires_arc = true
 end
