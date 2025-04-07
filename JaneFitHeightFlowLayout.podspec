@@ -16,4 +16,16 @@ Pod::Spec.new do |s|
   s.source_files  = "JaneWaterFlowLayout/JaneFitHeightFlowLayout/*.{h,m}"
 
   s.requires_arc = true
+
+  s.pod_target_xcconfig = {
+  'CODE_SIGNING_ALLOWED' => 'NO', 
+  'CODE_SIGNING_REQUIRED' => 'NO',
+  'ENABLE_BITCODE' => 'NO'
+  }
+
+  # 如果是动态框架需要添加
+  s.user_target_xcconfig = { 
+  'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => '$(inherited)' 
+  }
+
 end
