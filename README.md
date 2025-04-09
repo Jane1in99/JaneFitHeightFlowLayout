@@ -1,11 +1,48 @@
-Installation【安装】
+
+# JaneFitHeightFlowLayout
+
+自适应高度瀑布流列表布局
+
+## Installation
 
 CocoaPods【使用CocoaPods】
-pod 'JaneFitHeightFlowLayout'
+
+```bash
+  pod 'JaneFitHeightFlowLayout'
+```
 
 Manually【手动导入】
-Drag the ‘JaneFitHeightFlowLayout’ file from the project directory into your project【将项目目录下JaneFitHeightFlowLayout文件夹拽入你的项目中】
-Import the main header file：#import "JaneFitHeightFlowLayout.h"【导入主头文件：#import "JaneFitHeightFlowLayout.h"】
-swift项目需要使用桥接导入头文件
 
-![Simulator Screenshot - iPhone 15 Pro - 2025-04-08 at 16 37 43](https://github.com/user-attachments/assets/b8ce0ed8-70d4-4c03-9417-a57b09c67fe3)
+```bash
+  - Drag the ‘JaneFitHeightFlowLayout’ file from the project directory into your project【将项目目录下JaneFitHeightFlowLayout文件夹拽入你的项目中】
+  - Import the main header file：#import "JaneFitHeightFlowLayout.h"【导入主头文件：#import "JaneFitHeightFlowLayout.h"】 
+  - The Swift project requires the use of bridging to import header files【swift项目需要使用桥接导入头文件】
+```
+    
+## Usage/Examples
+
+```swift
+import JaneFitHeightFlowLayout
+
+let layout = JaneFitHeightFlowLayout()
+layout.delegate = self //实现代理
+let collectionView = UICollectionView.init(frame: self.view.bounds, collectionViewLayout: layout)
+...
+
+再实现JaneFitHeightFlowLayoutDelegateDelegate
+extension ViewController: JaneFitHeightFlowLayoutDelegate {
+    
+  func flowLayout(_ layout: JaneFitHeightFlowLayout!, heightForItemAt indexPath: IndexPath!, with itemWidth: CGFloat) -> CGFloat {
+      return arr[indexPath.item]
+  }
+
+  ...
+}
+
+```
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/Jane1in99/JaneFitHeightFlowLayout/main/images/screenshot.png)
+

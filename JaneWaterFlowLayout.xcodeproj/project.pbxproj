@@ -547,8 +547,7 @@
 				TargetAttributes = {
 					8852EDC9200EE4160082D64A = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = L8SJLHY6N2;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					8852EDE2200EE4160082D64A = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -815,11 +814,11 @@
 		8852EDF8200EE4160082D64A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Gan Zhou Minghao Information Technology Co., Ltd. (L8SJLHY6N2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = L8SJLHY6N2;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -831,7 +830,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jane.jay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7da72aba-2daf-483f-9c5a-75258af3f474";
-				PROVISIONING_PROFILE_SPECIFIER = "jenny jay";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -839,11 +838,11 @@
 		8852EDF9200EE4160082D64A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Gan Zhou Minghao Information Technology Co., Ltd. (L8SJLHY6N2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				DEVELOPMENT_TEAM = L8SJLHY6N2;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -855,7 +854,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jane.jay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "7da72aba-2daf-483f-9c5a-75258af3f474";
-				PROVISIONING_PROFILE_SPECIFIER = "jenny jay";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
