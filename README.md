@@ -44,5 +44,5 @@ extension ViewController: JaneFitHeightFlowLayoutDelegate {
 
 ## Screenshots
 
-![App Screenshot](https://github.com/Jane1in99/JaneFitHeightFlowLayout/main/images/screenshot.png)
+![App Screenshot](https://raw.githubusercontent.com/Jane1in99/JaneFitHeightFlowLayout/main/images/screenshot.png)
 
