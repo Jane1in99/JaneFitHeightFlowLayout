@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "JaneFitHeightFlowLayout"
-  s.version      = "1.0.6"
+  s.version      = "1.0.7"
   s.summary      = "自适应高度瀑布流列表布局"
   s.homepage     = "https://github.com/Jane1in99/JaneFitHeightFlowLayout"
   s.license      = { :type => "MIT", :file => "LICENSE" }
